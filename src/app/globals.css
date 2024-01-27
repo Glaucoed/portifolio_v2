@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-size: 1.125rem;
+  background-image: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg");
+  background-size: cover;
+}
