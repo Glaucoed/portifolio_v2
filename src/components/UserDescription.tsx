@@ -39,7 +39,7 @@ export default function UserDescription() {
       )}
       {nextMessage.second && (
         <TypeAnimation
-          sequence={["Sou desenvolvedor FullStack Júnior", 1000]}
+          sequence={["Sou desenvolvedor FullStack.", 1000]}
           wrapper="h2"
           speed={50}
           className="text-h2 font-semibold"
