@@ -3,8 +3,34 @@
 @tailwind utilities;
 
 
-body {
-  font-size: 1.125rem;
-  background-image: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg");
-  background-size: cover;
+.swiper-button-prev, .swiper-button-next {
+  color: var(--prev-button-color-light) !important
+}
+
+.dark .swiper-button-prev, .dark .swiper-button-next {
+  color: var(--prev-button-color-dark) !important
+}
+
+.swiper-slide{
+  width: 350px !important;
+}
+
+.swiper-wrapper {
+  height: 520px !important;
+}
+
+.swiper-pagination-bullet{
+  background-color: rgb(63, 61, 61) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #D6BE79 !important;
+  
+}
+.swiper-slide-visible{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px !important;  */
+  border-radius: 25px !important;
+
 }
