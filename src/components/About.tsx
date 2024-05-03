@@ -25,7 +25,7 @@ export default function About() {
       ref={ref}
     >
     
-    <div className="bg-zinc-200 dark:bg-escuro gap-10 flex justify-center flex-col lg:p-20 p-4">
+    <div className="bg-zinc-200 dark:bg-escuro gap-10 flex justify-center flex-col lg:p-20 p-4 lg:pb-80">
     <div className="mt-20">
       <h2 className="text-h1 uppercase font-bold text-escuro dark:text-white">
         Sobre mim
